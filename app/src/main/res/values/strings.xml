@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">OpusManagement</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_user_hint">User</string>
+    <string name="main_password_hint">Password</string>
+    <string name="main_remember_password_hint">Remember Password</string>
+</resources>
