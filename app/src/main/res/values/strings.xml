@@ -4,4 +4,7 @@
     <string name="main_user_hint">User</string>
     <string name="main_password_hint">Password</string>
     <string name="main_remember_password_hint">Remember Password</string>
+    <string name="title_activity_mainuser">Mainuser</string>
+    <string name="title_activity_main_user">MainUser</string>
+    <string name="title_activity_users">Users</string>
 </resources>

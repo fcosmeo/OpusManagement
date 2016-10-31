@@ -18,6 +18,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainUser"
+            android:label="@string/title_activity_main_user"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pe.edu.utp.opusmanagement.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Users"
+            android:label="@string/title_activity_users"
+            android:parentActivityName=".MainUser"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pe.edu.utp.opusmanagement.MainUser" />
+        </activity>
     </application>
 
 </manifest>
