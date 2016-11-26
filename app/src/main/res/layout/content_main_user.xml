@@ -17,7 +17,9 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:gravity="center"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
 
         <TextView
@@ -33,6 +35,7 @@
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:src="@drawable/trabajo"
+
         android:id="@+id/btn_work" />
 
         <TextView
@@ -47,7 +50,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="200dp"
-        android:src="@drawable/equipo"
+        android:src="@mipmap/ic_launcher"
         android:id="@+id/btn_users" />
     </LinearLayout>
 </RelativeLayout>
