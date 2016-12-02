@@ -17,14 +17,28 @@ public class MainUser extends AppCompatActivity {
 
 
 
-        findViewById(R.id.btn_users).setOnClickListener(new View.OnClickListener(){
 
-                @Override
-                public void onClick(View v){
-                    MainUser.this.startActivity(new Intent(MainUser.this,Users.class));
-                }
+
+        findViewById(R.id.btn_work).setOnClickListener(new View.OnClickListener(){
+
+                                                            @Override
+                                                            public void onClick(View v){
+                                                                MainUser.this.startActivity(new Intent(MainUser.this,Working.class));
+                                                            }
                                                         }
+
         );
+
+                findViewById(R.id.btn_users).setOnClickListener(new View.OnClickListener(){
+
+                                                                    @Override
+                                                                    public void onClick(View v){
+                                                                        MainUser.this.startActivity(new Intent(MainUser.this,Users.class));
+                                                                    }
+                                                                }
+
+        );
+
 
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
 //        fab.setOnClickListener(new View.OnClickListener() {

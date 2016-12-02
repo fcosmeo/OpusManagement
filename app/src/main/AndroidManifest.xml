@@ -28,6 +28,15 @@
                 android:value="pe.edu.utp.opusmanagement.MainActivity" />
         </activity>
         <activity
+            android:name=".Working"
+            android:label="@string/title_activity_working"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pe.edu.utp.opusmanagement.MainActivity" />
+        </activity>
+        <activity
             android:name=".Users"
             android:label="@string/title_activity_users"
             android:parentActivityName=".MainUser"
@@ -35,6 +44,33 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="pe.edu.utp.opusmanagement.MainUser" />
+        </activity>
+        <activity
+            android:name=".UserDetail"
+            android:label="@string/title_activity_user_detail"
+            android:parentActivityName=".Users"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pe.edu.utp.opusmanagement.Users" />
+        </activity>
+        <activity
+            android:name=".WorkDetail"
+            android:label="@string/title_activity_work_detail"
+            android:parentActivityName=".Working"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pe.edu.utp.opusmanagement.Working" />
+        </activity>
+        <activity
+            android:name=".WorkActivities"
+            android:label="@string/title_activity_work_activities"
+            android:parentActivityName=".WorkDetail"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="pe.edu.utp.opusmanagement.WorkDetail" />
         </activity>
     </application>
 

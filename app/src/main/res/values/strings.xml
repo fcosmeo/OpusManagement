@@ -7,4 +7,15 @@
     <string name="title_activity_mainuser">Mainuser</string>
     <string name="title_activity_main_user">MainUser</string>
     <string name="title_activity_users">Users</string>
+    <string name="title_activity_working">Working</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_detail">UserDetail</string>
+    <string name="title_activity_work_detail">WorkDetail</string>
+    <string name="title_activity_user_information">UserInformation</string>
+    <string name="title_activity_work_activities">WorkActivities</string>
 </resources>

@@ -24,6 +24,7 @@
 
         <TextView
             android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
             android:text="TRABAJOS"
             android:gravity="center"
             android:textStyle="bold"
@@ -32,15 +33,15 @@
             android:id="@+id/textView" />
 
         <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="200dp"
         android:src="@drawable/trabajo"
-
         android:id="@+id/btn_work" />
 
         <TextView
             android:text="USUARIOS CONECTADOS"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:textStyle="bold"
             android:gravity="center"
             android:layout_width="match_parent"
@@ -48,9 +49,9 @@
             android:id="@+id/textView2" />
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:src="@mipmap/ic_launcher"
-        android:id="@+id/btn_users" />
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:src="@drawable/equipo"
+            android:id="@+id/btn_users" />
     </LinearLayout>
 </RelativeLayout>
